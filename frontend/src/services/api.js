@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Use environment variable or default to localhost
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+// Use environment variable or dynamically detect hostname
+const API_BASE_URL = process.env.REACT_APP_API_URL || `http://${window.location.hostname}:8000`;
 const API_URL = `${API_BASE_URL}/api/auth/`;
 
 const api = axios.create({
@@ -32,16 +32,16 @@ api.interceptors.response.use(
         if (error.response?.status === 401 && !originalRequest._retry) {
             originalRequest._retry = true;
             const refreshToken = localStorage.getItem('refresh_token');
-            
+
             if (refreshToken) {
                 try {
                     const response = await axios.post(`${API_URL}refresh/`, {
                         refresh: refreshToken,
                     });
-                    
+
                     const { access } = response.data;
                     localStorage.setItem('access_token', access);
-                    
+
                     originalRequest.headers['Authorization'] = `Bearer ${access}`;
                     return api(originalRequest);
                 } catch (refreshError) {
@@ -53,7 +53,7 @@ api.interceptors.response.use(
                 }
             }
         }
-        
+
         return Promise.reject(error);
     }
 );

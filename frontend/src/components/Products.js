@@ -10,7 +10,7 @@ const Products = () => {
     const [selectedCategory, setSelectedCategory] = useState('all');
     const [searchQuery, setSearchQuery] = useState('');
 
-    const API_URL = 'http://localhost:8000/api/';
+    const API_URL = `http://${window.location.hostname}:8000/api/`;
 
     useEffect(() => {
         fetchData();
@@ -19,21 +19,21 @@ const Products = () => {
     const fetchData = async () => {
         try {
             setLoading(true);
-            
+
             // Fetch products and categories from Django backend
             const token = localStorage.getItem('access_token');
             const headers = token ? { 'Authorization': `Bearer ${token}` } : {};
-            
+
             // For now, we'll use the data from the database
             // You need to create these API endpoints in Django
             const productsResponse = await axios.get(`${API_URL}products/`, { headers });
             const categoriesResponse = await axios.get(`${API_URL}categories/`, { headers });
-            
+
             setProducts(productsResponse.data);
             setCategories(categoriesResponse.data);
         } catch (err) {
             console.error('Error fetching data:', err);
-            
+
             // Fallback: Use sample data if API is not available
             setSampleData();
         } finally {
@@ -103,7 +103,7 @@ const Products = () => {
     const filteredProducts = products.filter(product => {
         const matchesCategory = selectedCategory === 'all' || product.category_id === parseInt(selectedCategory);
         const matchesSearch = product.product_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                            product.description.toLowerCase().includes(searchQuery.toLowerCase());
+            product.description.toLowerCase().includes(searchQuery.toLowerCase());
         return matchesCategory && matchesSearch;
     });
 
@@ -143,7 +143,7 @@ const Products = () => {
                     <Col md={6} className="mb-3">
                         <Form.Group>
                             <Form.Label>Filter by Category</Form.Label>
-                            <Form.Select 
+                            <Form.Select
                                 value={selectedCategory}
                                 onChange={(e) => setSelectedCategory(e.target.value)}
                             >
@@ -180,13 +180,13 @@ const Products = () => {
                         <Col key={product.product_id} sm={6} lg={3} className="mb-4">
                             <Card className="product-modern h-100 border-0 shadow-sm">
                                 <div className="product-image-wrapper position-relative">
-                                    <Card.Img 
-                                        variant="top" 
-                                        src={product.image} 
+                                    <Card.Img
+                                        variant="top"
+                                        src={product.image}
                                         className="product-image"
                                         style={{ height: '200px', objectFit: 'cover' }}
                                     />
-                                    <Badge 
+                                    <Badge
                                         bg="primary"
                                         className="position-absolute top-0 start-0 m-3 rounded-pill"
                                     >
@@ -203,9 +203,9 @@ const Products = () => {
                                     </Card.Text>
                                     <div className="d-flex justify-content-between align-items-center mt-3">
                                         <span className="h5 mb-0 text-primary fw-bold">${product.price}</span>
-                                        <Button 
-                                            variant="primary" 
-                                            size="sm" 
+                                        <Button
+                                            variant="primary"
+                                            size="sm"
                                             className="rounded-pill px-3"
                                         >
                                             Add to Cart

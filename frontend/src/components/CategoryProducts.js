@@ -6,15 +6,15 @@ import axios from 'axios';
 const CategoryProducts = () => {
     const { categoryId } = useParams();
     const history = useHistory();
-    
+
     const [products, setProducts] = useState([]);
     const [category, setCategory] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
     const [currentPage, setCurrentPage] = useState(1);
-    
+
     const ITEMS_PER_PAGE = 6;
-    const API_URL = 'http://localhost:8000/api/';
+    const API_URL = `http://${window.location.hostname}:8000/api/`;
 
     // Sample category data with descriptions
     const categoriesData = {
@@ -40,11 +40,11 @@ const CategoryProducts = () => {
         try {
             setLoading(true);
             setCategory(categoriesData[categoryId]);
-            
+
             // Try to fetch from API
             const token = localStorage.getItem('access_token');
             const headers = token ? { 'Authorization': `Bearer ${token}` } : {};
-            
+
             try {
                 const response = await axios.get(`${API_URL}products/?category=${categoryId}`, { headers });
                 setProducts(response.data);
@@ -231,7 +231,7 @@ const CategoryProducts = () => {
                 { product_id: 144, product_name: 'Cable Management Kit', price: 14.99, image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', description: 'Organize cords and cables' },
             ],
         };
-        
+
         // Get products for the current category, or default to empty array
         const productsForCategory = categoryProducts[parseInt(categoryId)] || categoryProducts[1];
         setProducts(productsForCategory);
@@ -272,17 +272,17 @@ const CategoryProducts = () => {
             <Container>
                 {/* Header */}
                 <div className="mb-4">
-                    <button 
+                    <button
                         className="btn btn-outline-secondary btn-sm mb-3"
                         onClick={handleBackToCategories}
                     >
                         ← Back to Categories
                     </button>
                     <div className="d-flex align-items-center gap-3 mb-2">
-                        <div 
+                        <div
                             className="d-flex align-items-center justify-content-center rounded-circle"
-                            style={{ 
-                                backgroundColor: category?.color + '20', 
+                            style={{
+                                backgroundColor: category?.color + '20',
                                 color: category?.color,
                                 width: '60px',
                                 height: '60px',
@@ -307,9 +307,9 @@ const CategoryProducts = () => {
                         <Col key={product.product_id} xs={6} md={4}>
                             <Card className="product-modern h-100 border-0 shadow-sm">
                                 <div className="product-image-wrapper position-relative" style={{ height: '200px', overflow: 'hidden' }}>
-                                    <Card.Img 
-                                        variant="top" 
-                                        src={product.image} 
+                                    <Card.Img
+                                        variant="top"
+                                        src={product.image}
                                         style={{ height: '100%', objectFit: 'cover' }}
                                     />
                                 </div>
@@ -333,7 +333,7 @@ const CategoryProducts = () => {
                 {totalPages > 1 && (
                     <div className="d-flex justify-content-center">
                         <Pagination>
-                            <Pagination.Prev 
+                            <Pagination.Prev
                                 onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
                                 disabled={currentPage === 1}
                             />
@@ -346,7 +346,7 @@ const CategoryProducts = () => {
                                     {i + 1}
                                 </Pagination.Item>
                             ))}
-                            <Pagination.Next 
+                            <Pagination.Next
                                 onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
                                 disabled={currentPage === totalPages}
                             />
