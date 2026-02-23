@@ -1,0 +1,1461 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Electronics",
+      "description": "Latest gadgets, smartphones, laptops, and electronic accessories",
+      "image": "https://images.unsplash.com/photo-1498049860654-af1a5c5668ba?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 2,
+      "category_name": "Fashion",
+      "description": "Trendy clothing, shoes, and accessories for men and women",
+      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 3,
+      "category_name": "Home & Kitchen",
+      "description": "Furniture, appliances, and kitchen essentials for your home",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 4,
+      "category_name": "Books",
+      "description": "Fiction, non-fiction, educational books and e-books",
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 5,
+      "category_name": "Sports & Fitness",
+      "description": "Exercise equipment, sports gear, and fitness accessories",
+      "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 6,
+      "category_name": "Beauty & Personal Care",
+      "description": "Skincare, makeup, haircare, and personal grooming products",
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 7,
+      "category_name": "Toys & Games",
+      "description": "Toys, board games, puzzles, and gaming accessories for all ages",
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 8,
+      "category_name": "Automotive",
+      "description": "Car accessories, tools, parts, and maintenance products",
+      "image": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 9,
+      "category_name": "Health & Wellness",
+      "description": "Vitamins, supplements, medical supplies, and wellness products",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 10,
+      "category_name": "Jewelry & Watches",
+      "description": "Fine jewelry, fashion jewelry, and luxury watches",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 11,
+      "category_name": "Pet Supplies",
+      "description": "Food, toys, accessories, and care products for pets",
+      "image": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 12,
+      "category_name": "Office & Stationery",
+      "description": "Office supplies, stationery, and productivity tools",
+      "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 13,
+      "category_name": "Garden & Outdoor",
+      "description": "Gardening tools, outdoor furniture, and patio accessories",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 14,
+      "category_name": "Music & Instruments",
+      "description": "Musical instruments, audio equipment, and music accessories",
+      "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "category_id": 15,
+      "category_name": "Baby & Kids",
+      "description": "Baby care products, kids clothing, toys, and nursery essentials",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400",
+      "inserted_date": "2026-02-20 10:00:00"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "Wireless Bluetooth Headphones Pro",
+      "category_id": 1,
+      "description": "Premium noise-cancelling headphones with 30-hour battery life",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 2,
+      "product_name": "Smart Watch Series 7",
+      "category_id": 1,
+      "description": "Advanced fitness tracking with GPS and heart rate monitor",
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400",
+      "price": 399.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 3,
+      "product_name": "4K Ultra HD Smart TV 55 inch",
+      "category_id": 1,
+      "description": "Crystal clear display with HDR and smart streaming apps",
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400",
+      "price": 599.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 4,
+      "product_name": "Gaming Laptop RTX 4070",
+      "category_id": 1,
+      "description": "High-performance gaming with RGB keyboard and 144Hz display",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400",
+      "price": 1299.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 5,
+      "product_name": "Wireless Earbuds with ANC",
+      "category_id": 1,
+      "description": "True wireless earbuds with active noise cancellation",
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400",
+      "price": 199.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 6,
+      "product_name": "Portable Power Bank 20000mAh",
+      "category_id": 1,
+      "description": "Fast charging power bank with USB-C and multiple ports",
+      "image": "https://images.unsplash.com/photo-1609592424308-64643a5c66c8?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 7,
+      "product_name": "Mechanical Gaming Keyboard",
+      "category_id": 1,
+      "description": "RGB backlit keyboard with Cherry MX switches",
+      "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 8,
+      "product_name": "Wireless Gaming Mouse",
+      "category_id": 1,
+      "description": "Precision gaming mouse with 16000 DPI sensor",
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 9,
+      "product_name": "USB-C Docking Station",
+      "category_id": 1,
+      "description": "10-in-1 hub with HDMI, USB, Ethernet and card reader",
+      "image": "https://images.unsplash.com/photo-1625723044792-44de16ccb4e9?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 10,
+      "product_name": "Smart Home Security Camera",
+      "category_id": 1,
+      "description": "1080p WiFi camera with night vision and motion detection",
+      "image": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 11,
+      "product_name": "Men's Classic Denim Jacket",
+      "category_id": 2,
+      "description": "Vintage style denim jacket with comfortable fit",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 12,
+      "product_name": "Women's Summer Floral Dress",
+      "category_id": 2,
+      "description": "Light and breezy dress perfect for summer occasions",
+      "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 13,
+      "product_name": "Running Shoes Ultra Boost",
+      "category_id": 2,
+      "description": "High-performance running shoes with cushioned sole",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 14,
+      "product_name": "Leather Crossbody Bag",
+      "category_id": 2,
+      "description": "Genuine leather bag with adjustable strap",
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 15,
+      "product_name": "Aviator Sunglasses Polarized",
+      "category_id": 2,
+      "description": "Classic aviator style with UV400 protection",
+      "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 16,
+      "product_name": "Men's Slim Fit Chinos",
+      "category_id": 2,
+      "description": "Comfortable cotton chinos for casual or formal wear",
+      "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 17,
+      "product_name": "Women's Wool Coat",
+      "category_id": 2,
+      "description": "Elegant wool blend coat for winter season",
+      "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 18,
+      "product_name": "Canvas Backpack",
+      "category_id": 2,
+      "description": "Durable canvas backpack with laptop compartment",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "price": 54.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 19,
+      "product_name": "Silk Necktie Set",
+      "category_id": 2,
+      "description": "Premium silk ties in various colors and patterns",
+      "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 20,
+      "product_name": "Women's Ankle Boots",
+      "category_id": 2,
+      "description": "Stylish leather ankle boots with block heel",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400",
+      "price": 99.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 21,
+      "product_name": "Smart Coffee Maker",
+      "category_id": 3,
+      "description": "Programmable coffee maker with app control",
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 22,
+      "product_name": "Air Fryer 5.8 Quart",
+      "category_id": 3,
+      "description": "Digital air fryer with 7 cooking presets",
+      "image": "https://images.unsplash.com/photo-1626147116986-4601771470a6?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 23,
+      "product_name": "Robot Vacuum Cleaner",
+      "category_id": 3,
+      "description": "Smart mapping robot vacuum with self-emptying base",
+      "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=400",
+      "price": 399.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 24,
+      "product_name": "Non-Stick Cookware Set",
+      "category_id": 3,
+      "description": "10-piece ceramic cookware set with glass lids",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 25,
+      "product_name": "Memory Foam Mattress Queen",
+      "category_id": 3,
+      "description": "Cooling gel memory foam mattress with 10-year warranty",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=400",
+      "price": 499.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 26,
+      "product_name": "LED Desk Lamp with Wireless Charger",
+      "category_id": 3,
+      "description": "Adjustable desk lamp with built-in phone charger",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 27,
+      "product_name": "Bamboo Cutting Board Set",
+      "category_id": 3,
+      "description": "3-piece organic bamboo cutting boards with juice grooves",
+      "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 28,
+      "product_name": "Smart Thermostat",
+      "category_id": 3,
+      "description": "WiFi enabled thermostat with energy saving features",
+      "image": "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?w=400",
+      "price": 179.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 29,
+      "product_name": "Throw Blanket Soft Fleece",
+      "category_id": 3,
+      "description": "Ultra-soft fleece blanket in multiple colors",
+      "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 30,
+      "product_name": "Stainless Steel Water Bottle",
+      "category_id": 3,
+      "description": "Insulated bottle keeps drinks cold for 24 hours",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 31,
+      "product_name": "The Great Novel - Hardcover",
+      "category_id": 4,
+      "description": "Bestselling fiction novel by award-winning author",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 32,
+      "product_name": "Python Programming Guide",
+      "category_id": 4,
+      "description": "Complete guide to Python for beginners and experts",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 33,
+      "product_name": "Cookbook: World Cuisines",
+      "category_id": 4,
+      "description": "300 recipes from around the world with photos",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 34,
+      "product_name": "Science Encyclopedia",
+      "category_id": 4,
+      "description": "Comprehensive science reference for all ages",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 35,
+      "product_name": "Mystery Thriller Collection",
+      "category_id": 4,
+      "description": "Box set of 5 bestselling mystery novels",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 36,
+      "product_name": "Business Strategy Book",
+      "category_id": 4,
+      "description": "Insights from top CEOs and business leaders",
+      "image": "https://images.unsplash.com/photo-1550399105-c4db5fb85c18?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 37,
+      "product_name": "Children's Picture Book Set",
+      "category_id": 4,
+      "description": "10 classic children's stories with illustrations",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 38,
+      "product_name": "History of the World",
+      "category_id": 4,
+      "description": "Comprehensive world history from ancient to modern",
+      "image": "https://images.unsplash.com/photo-1463320726281-696a485928c7?w=400",
+      "price": 54.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 39,
+      "product_name": "Fitness & Health Guide",
+      "category_id": 4,
+      "description": "Complete guide to nutrition and exercise",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400",
+      "price": 27.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 40,
+      "product_name": "Art & Design Portfolio",
+      "category_id": 4,
+      "description": "Inspiring collection of contemporary art and design",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400",
+      "price": 64.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 41,
+      "product_name": "Yoga Mat Premium",
+      "category_id": 5,
+      "description": "Non-slip eco-friendly yoga mat with carrying strap",
+      "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 42,
+      "product_name": "Adjustable Dumbbells Set",
+      "category_id": 5,
+      "description": "5-50 lbs adjustable dumbbells with quick change system",
+      "image": "https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?w=400",
+      "price": 299.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 43,
+      "product_name": "Treadmill Pro Series",
+      "category_id": 5,
+      "description": "Foldable treadmill with incline and heart rate monitor",
+      "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?w=400",
+      "price": 899.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 44,
+      "product_name": "Basketball Official Size",
+      "category_id": 5,
+      "description": "Indoor/outdoor composite leather basketball",
+      "image": "https://images.unsplash.com/photo-1519861531473-9200263931a2?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 45,
+      "product_name": "Tennis Racket Pro",
+      "category_id": 5,
+      "description": "Graphite tennis racket with vibration dampening",
+      "image": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 46,
+      "product_name": "Resistance Bands Set",
+      "category_id": 5,
+      "description": "5 levels resistance bands with handles and door anchor",
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 47,
+      "product_name": "Cycling Helmet MIPS",
+      "category_id": 5,
+      "description": "Lightweight helmet with advanced impact protection",
+      "image": "https://images.unsplash.com/photo-1558538336-d0e4050355a3?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 48,
+      "product_name": "Foam Roller Massage",
+      "category_id": 5,
+      "description": "High-density foam roller for muscle recovery",
+      "image": "https://images.unsplash.com/photo-1600881333168-2ef49b341f30?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 49,
+      "product_name": "Soccer Cleats Elite",
+      "category_id": 5,
+      "description": "Professional grade soccer cleats with studs",
+      "image": "https://images.unsplash.com/photo-1511886929837-354d827aae26?w=400",
+      "price": 119.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 50,
+      "product_name": "Swimming Goggles Anti-Fog",
+      "category_id": 5,
+      "description": "UV protection goggles with panoramic vision",
+      "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400",
+      "price": 14.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 51,
+      "product_name": "Vitamin C Serum 20%",
+      "category_id": 6,
+      "description": "Anti-aging serum with hyaluronic acid",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 52,
+      "product_name": "Electric Toothbrush Smart",
+      "category_id": 6,
+      "description": "Sonic toothbrush with pressure sensor and timer",
+      "image": "https://images.unsplash.com/photo-1559671088-795c793c5eb4?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 53,
+      "product_name": "Hair Dryer Ionic Pro",
+      "category_id": 6,
+      "description": "Professional ionic hair dryer with diffuser",
+      "image": "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 54,
+      "product_name": "Perfume Eau de Parfum",
+      "category_id": 6,
+      "description": "Long-lasting luxury fragrance 100ml",
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 55,
+      "product_name": "Beard Grooming Kit",
+      "category_id": 6,
+      "description": "Complete beard care set with oil, balm, and comb",
+      "image": "https://images.unsplash.com/photo-1621607512214-68297480165e?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 56,
+      "product_name": "Makeup Brush Set 15pcs",
+      "category_id": 6,
+      "description": "Professional makeup brushes with case",
+      "image": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 57,
+      "product_name": "Organic Shampoo & Conditioner",
+      "category_id": 6,
+      "description": "Sulfate-free hair care set for all hair types",
+      "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+      "price": 32.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 58,
+      "product_name": "Face Moisturizer SPF 30",
+      "category_id": 6,
+      "description": "Daily moisturizer with sun protection",
+      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400",
+      "price": 22.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 59,
+      "product_name": "Nail Dryer Lamp LED",
+      "category_id": 6,
+      "description": "Professional UV LED lamp for gel nails",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 60,
+      "product_name": "Body Lotion Shea Butter",
+      "category_id": 6,
+      "description": "Deep moisturizing body lotion 500ml",
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400",
+      "price": 12.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 61,
+      "product_name": "LEGO City Police Station",
+      "category_id": 7,
+      "description": "743-piece building set with vehicles and figures",
+      "image": "https://images.unsplash.com/photo-1585366119957-f973043d4561?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 62,
+      "product_name": "Board Game Strategy",
+      "category_id": 7,
+      "description": "Award-winning strategy game for 2-4 players",
+      "image": "https://images.unsplash.com/photo-1610890716171-6b1c9eae1f72?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 63,
+      "product_name": "Remote Control Car 4WD",
+      "category_id": 7,
+      "description": "High-speed off-road RC car with 2.4GHz remote",
+      "image": "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=400",
+      "price": 69.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 64,
+      "product_name": "Jigsaw Puzzle 1000 Pieces",
+      "category_id": 7,
+      "description": "Beautiful landscape puzzle with poster included",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 65,
+      "product_name": "Dollhouse Wooden",
+      "category_id": 7,
+      "description": "Furnished dollhouse with LED lights and accessories",
+      "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 66,
+      "product_name": "Video Game Controller",
+      "category_id": 7,
+      "description": "Wireless controller compatible with PC and console",
+      "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 67,
+      "product_name": "Science Experiment Kit",
+      "category_id": 7,
+      "description": "50+ experiments for kids ages 8-12",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 68,
+      "product_name": "Stuffed Animal Giant",
+      "category_id": 7,
+      "description": "3-foot tall plush teddy bear",
+      "image": "https://images.unsplash.com/photo-1556012018-50c5c0da73bf?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 69,
+      "product_name": "Chess Set Premium",
+      "category_id": 7,
+      "description": "Wooden chess set with storage drawer",
+      "image": "https://images.unsplash.com/photo-1586165368502-1bad197a6461?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 70,
+      "product_name": "Art Supplies Set 150pcs",
+      "category_id": 7,
+      "description": "Complete art kit with paints, pencils, and brushes",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 71,
+      "product_name": "Car Vacuum Cleaner",
+      "category_id": 8,
+      "description": "12V portable vacuum with attachments",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 72,
+      "product_name": "Dash Cam 4K",
+      "category_id": 8,
+      "description": "Dual camera with GPS and night vision",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400",
+      "price": 119.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 73,
+      "product_name": "Tire Inflator Portable",
+      "category_id": 8,
+      "description": "Digital air compressor with auto shut-off",
+      "image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 74,
+      "product_name": "Car Cover Waterproof",
+      "category_id": 8,
+      "description": "All-weather protection with lock and cable",
+      "image": "https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 75,
+      "product_name": "Jump Starter Power Bank",
+      "category_id": 8,
+      "description": "20000mAh jump starter with USB ports and flashlight",
+      "image": "https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 76,
+      "product_name": "Seat Covers Leather",
+      "category_id": 8,
+      "description": "Universal fit luxury leather seat covers set",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 77,
+      "product_name": "Bluetooth FM Transmitter",
+      "category_id": 8,
+      "description": "Car kit with QC3.0 charger and hands-free calling",
+      "image": "https://images.unsplash.com/photo-1619983081563-430f63602796?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 78,
+      "product_name": "Windshield Sun Shade",
+      "category_id": 8,
+      "description": "Foldable reflective sun protector for car",
+      "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=400",
+      "price": 14.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 79,
+      "product_name": "Car Phone Mount",
+      "category_id": 8,
+      "description": "Dashboard and windshield mount with strong suction",
+      "image": "https://images.unsplash.com/photo-1616348436168-de43ad0db179?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 80,
+      "product_name": "Tool Set 200 Pieces",
+      "category_id": 8,
+      "description": "Complete mechanic tool set with case",
+      "image": "https://images.unsplash.com/photo-1581147036324-c17ac41dd161?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 81,
+      "product_name": "Multivitamin Daily",
+      "category_id": 9,
+      "description": "Complete daily vitamin supplement 180 tablets",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 82,
+      "product_name": "Protein Powder Whey",
+      "category_id": 9,
+      "description": "25g protein per serving, chocolate flavor 5lbs",
+      "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?w=400",
+      "price": 54.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 83,
+      "product_name": "Blood Pressure Monitor",
+      "category_id": 9,
+      "description": "Digital upper arm monitor with large display",
+      "image": "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 84,
+      "product_name": "First Aid Kit 300pcs",
+      "category_id": 9,
+      "description": "Comprehensive emergency kit for home and travel",
+      "image": "https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 85,
+      "product_name": "Essential Oils Set",
+      "category_id": 9,
+      "description": "Top 8 pure essential oils with diffuser",
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 86,
+      "product_name": "Heating Pad Electric",
+      "category_id": 9,
+      "description": "Large heating pad with auto shut-off",
+      "image": "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400",
+      "price": 27.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 87,
+      "product_name": "Sleep Aid Supplement",
+      "category_id": 9,
+      "description": "Natural melatonin for better sleep 60 capsules",
+      "image": "https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 88,
+      "product_name": "Digital Thermometer",
+      "category_id": 9,
+      "description": "Non-contact infrared thermometer for forehead",
+      "image": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 89,
+      "product_name": "Massage Gun Deep Tissue",
+      "category_id": 9,
+      "description": "Percussion massager with 6 attachments",
+      "image": "https://images.unsplash.com/photo-1615461066842-32561977e3d8?w=400",
+      "price": 99.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 90,
+      "product_name": "Omega-3 Fish Oil",
+      "category_id": 9,
+      "description": "High potency EPA DHA supplement 120 softgels",
+      "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=400",
+      "price": 22.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 91,
+      "product_name": "Gold Necklace 18K",
+      "category_id": 10,
+      "description": "Elegant chain necklace with pendant",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400",
+      "price": 299.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 92,
+      "product_name": "Diamond Stud Earrings",
+      "category_id": 10,
+      "description": "0.5 carat each, 14K white gold setting",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400",
+      "price": 499.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 93,
+      "product_name": "Luxury Watch Automatic",
+      "category_id": 10,
+      "description": "Swiss made mechanical watch with leather strap",
+      "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400",
+      "price": 899.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 94,
+      "product_name": "Silver Bracelet Cuff",
+      "category_id": 10,
+      "description": "Sterling silver adjustable cuff bracelet",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 95,
+      "product_name": "Engagement Ring Solitaire",
+      "category_id": 10,
+      "description": "1 carat diamond ring in platinum setting",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400",
+      "price": 2499.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 96,
+      "product_name": "Pearl Necklace Set",
+      "category_id": 10,
+      "description": "Genuine freshwater pearls with matching earrings",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 97,
+      "product_name": "Smart Watch Rose Gold",
+      "category_id": 10,
+      "description": "Fitness tracker with heart rate and notifications",
+      "image": "https://images.unsplash.com/photo-1434056886845-dbe89f8f5d0e?w=400",
+      "price": 199.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 98,
+      "product_name": "Mens Wedding Band",
+      "category_id": 10,
+      "description": "Tungsten carbide ring with brushed finish",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 99,
+      "product_name": "Charm Bracelet Silver",
+      "category_id": 10,
+      "description": "Build your own with collectible charms",
+      "image": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 100,
+      "product_name": "Anklet Beach Style",
+      "category_id": 10,
+      "description": "Boho beaded anklet with shells",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 101,
+      "product_name": "Dog Food Premium",
+      "category_id": 11,
+      "description": "Grain-free natural dog food 25lbs",
+      "image": "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 102,
+      "product_name": "Cat Tree Tower",
+      "category_id": 11,
+      "description": "Multi-level cat condo with scratching posts",
+      "image": "https://images.unsplash.com/photo-1545249390-6bdfa286032f?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 103,
+      "product_name": "Dog Bed Orthopedic",
+      "category_id": 11,
+      "description": "Memory foam bed with removable cover",
+      "image": "https://images.unsplash.com/photo-1591946614720-90a587da4a36?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 104,
+      "product_name": "Pet Grooming Kit",
+      "category_id": 11,
+      "description": "Complete grooming set for dogs and cats",
+      "image": "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 105,
+      "product_name": "Automatic Pet Feeder",
+      "category_id": 11,
+      "description": "Programmable feeder with portion control",
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 106,
+      "product_name": "Bird Cage Large",
+      "category_id": 11,
+      "description": "Spacious cage with perches and feeding cups",
+      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 107,
+      "product_name": "Fish Tank 20 Gallon",
+      "category_id": 11,
+      "description": "Complete aquarium kit with filter and LED",
+      "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 108,
+      "product_name": "Pet Carrier Soft",
+      "category_id": 11,
+      "description": "Airline approved travel carrier for small pets",
+      "image": "https://images.unsplash.com/photo-1541781777621-af13454aa802?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 109,
+      "product_name": "Dog Leash Retractable",
+      "category_id": 11,
+      "description": "16ft retractable leash with LED light",
+      "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 110,
+      "product_name": "Cat Litter Box Self-Cleaning",
+      "category_id": 11,
+      "description": "Automatic litter box with odor control",
+      "image": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 111,
+      "product_name": "Ergonomic Office Chair",
+      "category_id": 12,
+      "description": "Adjustable lumbar support and armrests",
+      "image": "https://images.unsplash.com/photo-1505843490538-5133c6c7d0e1?w=400",
+      "price": 249.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 112,
+      "product_name": "Standing Desk Converter",
+      "category_id": 12,
+      "description": "Height adjustable desk riser 37 inch",
+      "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400",
+      "price": 179.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 113,
+      "product_name": "Printer All-in-One",
+      "category_id": 12,
+      "description": "Wireless color printer with scanner and copier",
+      "image": "https://images.unsplash.com/photo-1612815154858-60aa4c43e64e?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 114,
+      "product_name": "Notebook Set 5 Pack",
+      "category_id": 12,
+      "description": "Hardcover lined journals with bookmarks",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?w=400",
+      "price": 19.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 115,
+      "product_name": "Desk Organizer Bamboo",
+      "category_id": 12,
+      "description": "Multi-compartment organizer for supplies",
+      "image": "https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 116,
+      "product_name": "Whiteboard Magnetic",
+      "category_id": 12,
+      "description": "48x36 inch board with markers and eraser",
+      "image": "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 117,
+      "product_name": "Stapler Heavy Duty",
+      "category_id": 12,
+      "description": "Commercial stapler for 100 sheets",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 118,
+      "product_name": "Pen Set Luxury",
+      "category_id": 12,
+      "description": "Executive ballpoint pens gift set",
+      "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 119,
+      "product_name": "Filing Cabinet 2 Drawer",
+      "category_id": 12,
+      "description": "Steel cabinet with lock and wheels",
+      "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=400",
+      "price": 99.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 120,
+      "product_name": "Document Shredder",
+      "category_id": 12,
+      "description": "Cross-cut shredder for 12 sheets",
+      "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400",
+      "price": 54.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 121,
+      "product_name": "Lawn Mower Electric",
+      "category_id": 13,
+      "description": "Cordless mower with 40V battery",
+      "image": "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=400",
+      "price": 299.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 122,
+      "product_name": "Garden Tool Set",
+      "category_id": 13,
+      "description": "10-piece stainless steel tools with tote",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400",
+      "price": 39.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 123,
+      "product_name": "Patio Furniture Set",
+      "category_id": 13,
+      "description": "4-piece wicker set with cushions",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+      "price": 499.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 124,
+      "product_name": "BBQ Grill Gas",
+      "category_id": 13,
+      "description": "4-burner grill with side burner",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400",
+      "price": 349.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 125,
+      "product_name": "Outdoor Umbrella",
+      "category_id": 13,
+      "description": "10ft cantilever umbrella with LED lights",
+      "image": "https://images.unsplash.com/photo-1516914943479-89db7d9ae7f2?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 126,
+      "product_name": "Hose Reel Automatic",
+      "category_id": 13,
+      "description": "Retractable hose reel with 100ft hose",
+      "image": "https://images.unsplash.com/photo-1558904541-efa843a96f01?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 127,
+      "product_name": "Plant Pots Set",
+      "category_id": 13,
+      "description": "6 ceramic pots with drainage and saucers",
+      "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 128,
+      "product_name": "Fire Pit Table",
+      "category_id": 13,
+      "description": "Propane fire pit with glass beads",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400",
+      "price": 279.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 129,
+      "product_name": "Solar Path Lights",
+      "category_id": 13,
+      "description": "8-pack LED lights for garden path",
+      "image": "https://images.unsplash.com/photo-1558442074-3c19857bc1dc?w=400",
+      "price": 29.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 130,
+      "product_name": "Hammock with Stand",
+      "category_id": 13,
+      "description": "Double hammock with steel stand",
+      "image": "https://images.unsplash.com/photo-1596395819057-d3755d5177bd?w=400",
+      "price": 119.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 131,
+      "product_name": "Acoustic Guitar Starter",
+      "category_id": 14,
+      "description": "Full size guitar with case and accessories",
+      "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 132,
+      "product_name": "Digital Piano 88 Key",
+      "category_id": 14,
+      "description": "Weighted keys with stand and bench",
+      "image": "https://images.unsplash.com/photo-1552422535-c45813c61732?w=400",
+      "price": 399.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 133,
+      "product_name": "Bluetooth Speaker Party",
+      "category_id": 14,
+      "description": "Portable speaker with lights and mic",
+      "image": "https://images.unsplash.com/photo-1608043152269-423db5fb85c1?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 134,
+      "product_name": "DJ Controller",
+      "category_id": 14,
+      "description": "2-channel controller with software",
+      "image": "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=400",
+      "price": 249.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 135,
+      "product_name": "Drum Set Electronic",
+      "category_id": 14,
+      "description": "8-pad electronic kit with headphones",
+      "image": "https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=400",
+      "price": 349.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 136,
+      "product_name": "Violin Student",
+      "category_id": 14,
+      "description": "4/4 size with bow, case and rosin",
+      "image": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 137,
+      "product_name": "Microphone Studio",
+      "category_id": 14,
+      "description": "Condenser mic with stand and pop filter",
+      "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=400",
+      "price": 99.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 138,
+      "product_name": "Headphones Studio",
+      "category_id": 14,
+      "description": "Professional monitoring headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "price": 149.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 139,
+      "product_name": "Guitar Amplifier",
+      "category_id": 14,
+      "description": "20W practice amp with effects",
+      "image": "https://images.unsplash.com/photo-1550985616-10810253b84d?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 140,
+      "product_name": "Music Stand Folding",
+      "category_id": 14,
+      "description": "Adjustable sheet music stand with bag",
+      "image": "https://images.unsplash.com/photo-1514117445516-2ecfc9c4ec90?w=400",
+      "price": 24.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 141,
+      "product_name": "Baby Stroller Travel",
+      "category_id": 15,
+      "description": "Lightweight foldable stroller with canopy",
+      "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=400",
+      "price": 199.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 142,
+      "product_name": "Diaper Bag Backpack",
+      "category_id": 15,
+      "description": "Waterproof bag with changing pad",
+      "image": "https://images.unsplash.com/photo-1544367567-0f6c7d44362f?w=400",
+      "price": 44.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 143,
+      "product_name": "Baby Monitor Video",
+      "category_id": 15,
+      "description": "HD camera with night vision and two-way audio",
+      "image": "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=400",
+      "price": 129.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 144,
+      "product_name": "Car Seat Convertible",
+      "category_id": 15,
+      "description": "3-in-1 car seat for infants to toddlers",
+      "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=400",
+      "price": 249.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 145,
+      "product_name": "Baby Bottle Sterilizer",
+      "category_id": 15,
+      "description": "Electric steam sterilizer for bottles",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400",
+      "price": 59.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 146,
+      "product_name": "Crib Mattress Organic",
+      "category_id": 15,
+      "description": "Breathable organic cotton mattress",
+      "image": "https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=400",
+      "price": 89.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 147,
+      "product_name": "Baby Swing Electric",
+      "category_id": 15,
+      "description": "Automatic swing with music and timer",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400",
+      "price": 119.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 148,
+      "product_name": "Kids Tablet Educational",
+      "category_id": 15,
+      "description": "Learning tablet with parental controls",
+      "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400",
+      "price": 79.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 149,
+      "product_name": "Baby Walker Activity",
+      "category_id": 15,
+      "description": "Interactive walker with toys and music",
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=400",
+      "price": 49.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    },
+    {
+      "product_id": 150,
+      "product_name": "Nursing Pillow",
+      "category_id": 15,
+      "description": "Ergonomic feeding pillow with washable cover",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400",
+      "price": 34.99,
+      "inserted_date": "2026-02-20 10:00:00"
+    }
+  ]
+}
