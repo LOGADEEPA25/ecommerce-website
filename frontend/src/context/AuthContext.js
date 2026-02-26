@@ -11,6 +11,8 @@ export const AuthProvider = ({ children }) => {
         const storedUser = localStorage.getItem('user');
         const accessToken = localStorage.getItem('access_token');
         
+        console.log('AuthContext useEffect - storedUser:', storedUser, 'accessToken:', !!accessToken);
+        
         if (storedUser && accessToken) {
             setUser(JSON.parse(storedUser));
         }
@@ -39,14 +41,8 @@ export const AuthProvider = ({ children }) => {
     const register = async (userData) => {
         try {
             const response = await authService.register(userData);
-            const { user, access, refresh } = response.data;
-            
-            localStorage.setItem('access_token', access);
-            localStorage.setItem('refresh_token', refresh);
-            localStorage.setItem('user', JSON.stringify(user));
-            
-            setUser(user);
-            return { success: true };
+            // Don't store tokens or login user - redirect to login page instead
+            return { success: true, message: 'Registration successful. Please login.' };
         } catch (error) {
             return {
                 success: false,

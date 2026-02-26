@@ -5,7 +5,6 @@ import { useAuth } from '../context/AuthContext';
 
 const Register = (props) => {
     const [formData, setFormData] = useState({
-        username: '',
         email: '',
         first_name: '',
         last_name: '',
@@ -34,10 +33,15 @@ const Register = (props) => {
 
         setLoading(true);
         try {
-            const result = await register(formData);
+            // Use email as username for backend compatibility
+            const registrationData = {
+                ...formData,
+                username: formData.email
+            };
+            const result = await register(registrationData);
             
             if (result.success) {
-                props.history.push('/home');
+                props.history.push('/login');
             } else {
                 const errorMsg = typeof result.error === 'object' 
                     ? Object.values(result.error).flat().join(', ')
@@ -59,18 +63,6 @@ const Register = (props) => {
             {error && <Alert variant="danger">{error}</Alert>}
             
             <Form onSubmit={handleSubmit}>
-                <Form.Group className="mb-3">
-                    <Form.Label>Username *</Form.Label>
-                    <Form.Control
-                        type="text"
-                        name="username"
-                        value={formData.username}
-                        onChange={handleChange}
-                        required
-                        placeholder="Choose a username"
-                    />
-                </Form.Group>
-
                 <Form.Group className="mb-3">
                     <Form.Label>Email *</Form.Label>
                     <Form.Control

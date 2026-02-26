@@ -48,14 +48,14 @@ const Login = (props) => {
             
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
-                    <Form.Label>Username</Form.Label>
+                    <Form.Label>Email</Form.Label>
                     <Form.Control
-                        type="text"
+                        type="email"
                         name="username"
                         value={formData.username}
                         onChange={handleChange}
                         required
-                        placeholder="Enter username"
+                        placeholder="Enter your email"
                     />
                 </Form.Group>
 
